@@ -40,7 +40,7 @@ const Locationdropdown = () => {
       {selectedOption && (
         <p className="text-gray-600 mt-2">
           You selected:{" "}
-          <span className="font-bold">{selectedOption.label}</span>
+          <span className="font-semibold font-serif">{selectedOption.label}</span>
         </p>
       )}
     </div>

@@ -31,7 +31,7 @@ export default {
     },
     {
       name: "fuelCapacity",
-      type: "string",
+      type: "string", // Consider using "number" for actual numerical values
       title: "Fuel Capacity",
       description: "Fuel capacity or battery capacity (e.g., 90L, 100kWh)",
     },
@@ -43,19 +43,19 @@ export default {
     },
     {
       name: "seatingCapacity",
-      type: "string",
+      type: "string", // Consider using "number" if actual numeric values are expected
       title: "Seating Capacity",
       description: "Number of seats (e.g., 2 People, 4 seats)",
     },
     {
       name: "pricePerDay",
-      type: "string",
+      type: "number", // Changed to "number" for prices
       title: "Price Per Day",
       description: "Rental price per day",
     },
     {
       name: "originalPrice",
-      type: "string",
+      type: "number", // Changed to "number" for price
       title: "Original Price",
       description: "Original price before discount (if applicable)",
     },
@@ -77,5 +77,5 @@ export default {
         hotspot: true,
       },
     },
-  ]
+  ],
 };

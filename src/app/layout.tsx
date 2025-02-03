@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import { WishlistProvider } from "./context/wishlistContext";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -36,5 +37,6 @@ export default function RootLayout({
       </WishlistProvider>
       </body>
     </html>
+    
   );
 }

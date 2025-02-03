@@ -9,7 +9,7 @@ import { AiFillHeart } from "react-icons/ai";
 import { CiHeart } from "react-icons/ci";
 import Review from "./Review";
 import Popular from "./Popular";
-
+import Link from "next/link";
 interface Product {
   name: string;
   type: string;
@@ -184,10 +184,11 @@ const ProductDetail = ({ product }: { product: Product }) => {
               <span className="text-gray-500 text-base">/day</span>
             </div>
             <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
-              
+              <Link href={`/Payment`}>
               <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
                 Rent Now
               </button>
+              </Link>
             </div>
           </div>
         </div>

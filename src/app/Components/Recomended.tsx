@@ -112,7 +112,7 @@ const Recomended = () => {
 
             {/* Product Features */}
             <div className="flex flex-col gap-2 text-sm font-medium text-gray-400 mb-4">
-              <div>Fuel: {product.fuelCapacity}L</div>
+              <div>Fuel: {product.fuelCapacity}</div>
               <div>Seating: {product.seatingCapacity}</div>
               <div>Transmission: {product.transmission}</div>
             </div>
